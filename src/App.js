@@ -25,11 +25,12 @@ function App() {
     }
     promptInstall.prompt();
   };
-  if (!supportsPWA) {
-    return null;
-  }
+  // if (!supportsPWA) {
+  //   return null;
+  // }
   return (
     <div className="App">
+      Hello
       <button
         className="link-button"
         id="setup_button"
