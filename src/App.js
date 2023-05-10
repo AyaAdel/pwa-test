@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <h1>Hello PWA</h1>
-      {prompt && <InstallPWA />}
+      <InstallPWA />
     </>
   )
 }
